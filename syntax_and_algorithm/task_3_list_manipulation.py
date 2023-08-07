@@ -5,8 +5,9 @@ Write the following function implementations:
 
 def unique_elements(values):
     """
-    1. unique_elements -> takes a list of values and returns a new list with unique elements of the first list.
+    takes a list of values and returns a new list with unique elements of the first list.
     - Do not use the built-in set function.
+    - short version: return list(set(values))
 
     Example:
         [1, 2, 3, 3, 3, 3, 4, 5] -> [1, 2, 3, 4, 5]
@@ -17,8 +18,12 @@ def unique_elements(values):
 
 def reverse_list(values):
     """
-    2. reverse_list -> takes a list of values and returns a new list with the elements in reversed order.
-    - Do not use the built-in reversal functions.
+    takes a list of values and returns a new list with the elements in reversed order.
+    - Do not use the built-in reversal functions or any of the following shortcuts.
+    - short versions:
+        - return values[::-1]
+        - values.reverse()
+        - return list(reversed(values))
 
     Example:
         [1, 2, 3, 4, 5] -> [5, 4, 3, 2, 1]
@@ -29,8 +34,9 @@ def reverse_list(values):
 
 def max_element(values):
     """
-    3. max_element -> takes a list of values and returns the maximum value in the list.
+    takes a list of values and returns the maximum value in the list.
     - Do not use the built-in max function.
+    - short version: return max(values)
 
     Example:
         [1, 2, 3, 4, 5] -> 5
