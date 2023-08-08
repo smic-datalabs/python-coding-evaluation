@@ -26,3 +26,10 @@ Total: 23
 """
 
 
+def main():
+    # implement your calculator here
+    pass
+
+
+if __name__ == "__main__":
+    main()

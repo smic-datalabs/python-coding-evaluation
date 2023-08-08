@@ -20,22 +20,16 @@ class Test(TestCase):
 
     def test_get_largest_palindrome_product_of_4_and_5(self):
         self.assertEqual(99000099, get_largest_palindrome_product(4))
-        start_time = time.time()
+        # start_time = time.time()
         self.assertEqual(9966006699, get_largest_palindrome_product(5))
-        print("Time taken: ", time.time() - start_time)
-
-        # TODO: implement timeout. This test should not take longer than 1 second.
-        #  If more than 1 second, fail the test due to inefficiency.
+        # print("Time taken: ", time.time() - start_time)
 
     @timeout_decorator.timeout(1, exception_message="Time limit exceeded")
     def test_get_largest_palindrome_product_of_6_and_7(self):
-        start_time = time.time()
+        # start_time = time.time()
         self.assertEqual(999000000999, get_largest_palindrome_product(6))
-        print("Time taken: ", time.time() - start_time)
+        # print("Time taken: ", time.time() - start_time)
         start_time = time.time()
         self.assertEqual(99956644665999, get_largest_palindrome_product(7))
-        print("Time taken: ", time.time() - start_time)
-
-        # TODO: implement timeout. This test should not take longer than 1 second.
-        #  If more than 1 second, fail the test due to inefficiency.
+        # print("Time taken: ", time.time() - start_time)
 
