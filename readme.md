@@ -27,6 +27,7 @@ Scoring:
 
 ## Section 2: Problem Solving
 This section of the evaluation is about problem-solving. The goal is to solve a number of problems using Python.
+You need to come up with your own algorithm on how to solve/implement the solutions
 
 Most of the problems are based on the [Project Euler](https://projecteuler.net/) problems. 
 
