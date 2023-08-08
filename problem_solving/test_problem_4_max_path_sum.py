@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from problem_solving.problem_4_max_path_sum import find_max_path_sum2, find_max_path_sum
+from problem_solving.problem_4_max_path_sum import find_max_path_sum
 
 triangle1 = [
     [3],
