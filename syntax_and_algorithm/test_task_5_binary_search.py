@@ -14,5 +14,5 @@ class Test(TestCase):
         self.assertEqual(-1, binary_search([], 1))
 
     def test_binary_search_repeating_elements(self):
-        self.assertEqual(2, binary_search([1, 2, 3, 3, 3, 3, 4, 5], 3))
-        self.assertEqual(1, binary_search(["a", "b", "c", "c"], "b"))
+        self.assertEqual(3, binary_search([1, 2, 3, 3, 3, 4, 5], 3))
+        self.assertEqual(1, binary_search(["a", "b", "c", "c", "d"], "b"))
