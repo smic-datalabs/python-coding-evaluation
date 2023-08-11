@@ -4,6 +4,8 @@ The sum of these multiples is 23.
 
 Create a function that finds the sum of all the multiples of 3 or 5 below a given number n.
 
+Example: for n = 10, the sum is 23 (3 + 5 + 6 + 9).
+
 Based on https://projecteuler.net/problem=1
 """
 

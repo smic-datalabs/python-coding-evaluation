@@ -11,4 +11,10 @@ def is_palindrome(v):
 
 
 def get_largest_palindrome_product(n):
+    """
+    Find the largest palindrome made from the product of two n-digit numbers.
+    Example: the largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
+    :param n:
+    :return:
+    """
     pass

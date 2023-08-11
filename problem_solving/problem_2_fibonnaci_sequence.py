@@ -14,6 +14,13 @@ def get_fibonacci_sequence(n):
 
 
 def sum_of_even_fibonacci_terms(n):
+    """
+    By considering the terms in the Fibonacci sequence whose values do not exceed n,
+    find the sum of the even-valued terms.
+    Example: for n = 100, the sum of the even-valued terms is 44 (2 + 8 + 34).
+    :param n:
+    :return:
+    """
     pass
 
 
